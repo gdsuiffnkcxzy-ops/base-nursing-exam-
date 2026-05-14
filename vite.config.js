@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/base-nursing-exam/', // تأكد أن هذا هو اسم المستودع الخاص بك
+  // يجب أن يكون base مساوياً لاسم المستودع مع شرطتين مائلتين في البداية والنهاية
+  base: '/base-nursing-exam/',
 })
