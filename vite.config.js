@@ -3,5 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/nursing-exam/', // تأكد أن الاسم هنا مطابق تماماً لاسم المستودع على جيت هب
+  // هذا السطر يخبر المتصفح أن موقعك موجود داخل هذا المسار تحديداً
+  base: '/base-nursing-exam-/', 
 })
+
