@@ -3,7 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  // هذا السطر يخبر المتصفح أن موقعك موجود داخل هذا المسار تحديداً
-  base: '/base-nursing-exam-/', 
+  base: '/base-nursing-exam/', // تأكد أن هذا هو اسم المستودع الخاص بك
 })
-
